@@ -87,12 +87,22 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
     letter-spacing: 0%;
     line-height: 22px;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .main .section-1 {
     display: grid;
     width: auto;
     margin-bottom: 50px;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 20% 1fr;
+}
+.main .blocs {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    flex-direction: column;
 }
 .main .section-1 .bloc-1 {
     color: var(--text-color);
@@ -100,7 +110,8 @@ body::-webkit-scrollbar {
     margin: 0 auto;
     grid-column: 1;
     grid-row: 1;
-
+    border: 1px solid var(--text-color);
+    padding: 25px;
 }
 .main .section-1 .bloc-1 .text .title {
     color: var(--globale-title-color);
@@ -283,4 +294,88 @@ body::-webkit-scrollbar {
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+
+/* Cinquième Section */
+
+
+.section-5 .content {
+    width: 100%;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1E1E1E;
+}
+.section-5 .content .img-profile {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../img/profil.png");
+}
+.section-5 .content .text {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    font-family: var(--globale-font-family);
+    font-weight: 100;
+    line-height: 1.4;
+    color: var(--text-color);
+}
+.section-5 .content .text a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.section-5 .content .text a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sixième Section */
+
+
+.section-6 {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+.section-6 .qrcode img {
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+}
+
+
+
+/* 7ème Section */
+
+.section-7 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #1E1E1E;
+    color: #FFF;
+    font-family: var(--globale-font-family);
+    border-radius: 25px;
+}
+.section-7 .text h4 {
+    font-family: var(--globale-font-family);
+    font-weight: var(--globale-font-weight);
+    text-transform: uppercase;
+}
+.section-7 form input {
+    height: 50px;
+    width: 85%;
+    font-family: var(--globale-font-family);
+    padding-left: 25px;
+    outline: none;
+    border-radius: 25px;
+    border: 0;
+}
+.section-7 form button {
+    height: 40px;
+    width: 40%;
+    
 }
