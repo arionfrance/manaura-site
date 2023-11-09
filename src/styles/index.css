@@ -169,10 +169,15 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
-.bloc-content-1 {
+
+/* Deuxième Section */
+
+
+.section-2 .bloc-content-1 {
     display: grid;
     width: 90%; 
     margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
 }
 .bloc-content-1 h4 {
     margin-top: 10px;
@@ -190,111 +195,40 @@ body::-webkit-scrollbar {
     margin-bottom: 10px;
     cursor: pointer;
 }
-.bloc-content-1 .bloc-img-1 {
-    grid-column: 1;
-    grid-row: 1;
-}
 .professionnel {
     height: 125px;
     width: 95%;
     background-size: cover;
     background-image: url("../img/pro.png");
 }
-.bloc-content-1 .bloc-img-2 {
-    grid-column: 2;
-    grid-row: 1;
-}
 .cyber {
     height: 125px;
     width: 95%;
     background-size: cover;
-    background-image: url("../img/cyber.png");
+    background-image: url("../img/cyber.jpg");
 }
-.bloc-content-1 .bloc-img-3 {
-    grid-column: 1;
-    grid-row: 2;
-}
-.sante {
-    height: 125px;
-    width: 95%;
-    background-size: cover;
-    background-image: url("../img/sante.png");
-}
-.bloc-content-1 .bloc-img-4 {
-    grid-column: 2;
-    grid-row: 2;
-}
-.prevoyance {
-    height: 125px;
-    width: 95%;
-    background-size: cover;
-    background-image: url("../img/prevoyance.png");
-}
-
-.bloc-content-2 {
-    display: grid;
-    width: 90%; 
-    margin: 0 auto;
-}
-.bloc-content-2 h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: var(--globale-font-family);
-    font-size: var(--text-font-size);
-}
-.bloc-content-2 button {
-    height: 35px; 
-    width: 35px;
-    border-radius: 25px;
-    border: solid 5px var(--global-border-color);
-    text-align: center;
-    font-weight: var(--globale-font-weight);
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-.bloc-content-2 .bloc-img-1 {
-    grid-column: 1;
-    grid-row: 1;
-}
-.bloc-content-2 .automobile {
-    height: 125px;
-    width: 95%;
-    background-size: cover;
-    background-image: url("../img/automobile.png");
-}
-.bloc-content-2 .bloc-img-2 {
-    grid-column: 2;
-    grid-row: 1;
-}
-.habitation {
-    height: 125px;
-    width: 95%;
-    background-size: cover;
-    background-image: url("../img/habitation.png");
-}
-.bloc-content-2 .bloc-img-3 {
+.bloc-content-1 .bloc-img-3, .bloc-img-4 {
    display: none;
 }
+.bloc-content-2  {
+    display: none;
+ }
+
+
+/* Troisième Section */
+
 
 .section-3 .bloc-content-1 {
     width: 90%;
     margin: 0 auto;
     display: grid;
-}
-
-.section-3 .bloc-img-1 {
-    grid-column: 1;
-    grid-row: 1;
+    grid-template-columns: 1fr 1fr;
 }
 .bloc-content-1 .rcp {
     height: 150px;
     width: 95%;
     background-size: cover;
-    background-image: url("../img/sport.png");
-}
-.section-3 .bloc-img-2 {
-    grid-column: 1;
-    grid-row: 2;
+    background-image: url("../img/rcp.jpg");
 }
 .bloc-content-1 .flotteauto {
     height: 150px;
@@ -302,9 +236,10 @@ body::-webkit-scrollbar {
     background-size: cover;
     background-image: url("../img/association.png");
 }
+
 .section-3 .bloc-content-1 button {
     height: 50px; 
-    width: 25%;
+    width: 90%;
     border-radius: 25px;
     border: solid 5px var(--global-border-color);
     text-align: center;
