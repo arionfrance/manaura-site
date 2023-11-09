@@ -234,7 +234,7 @@ body::-webkit-scrollbar {
     height: 150px;
     width: 95%;
     background-size: cover;
-    background-image: url("../img/association.png");
+    background-image: url("../img/flotte-auto.jpg");
 }
 
 .section-3 .bloc-content-1 button {
@@ -246,4 +246,41 @@ body::-webkit-scrollbar {
     font-weight: var(--globale-font-weight);
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+
+/* Quatrième section */
+
+
+.section-4 .bloc-content-1 {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section-4 .bloc-content-1 .fpnc {
+    height: 150px;
+    width: 95%;
+    background-size: cover;
+    background-image: url("../img/administration.png");
+}
+.section-4 .bloc-content-1 .eeg {
+    height: 150px;
+    width: 95%;
+    background-size: cover;
+    background-image: url("../img/study.png");
+}
+.section-4 .bloc-content-1 .bloc-img-3 {
+    display: none;
+}
+.section-4 .bloc-content-1 button {
+    height: 35px; 
+    width: 35px;
+    border-radius: 25px;
+    border: solid 5px var(--global-border-color);
+    text-align: center;
+    font-weight: var(--globale-font-weight);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
 }
