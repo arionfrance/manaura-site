@@ -211,7 +211,6 @@ body::-webkit-scrollbar {
     display: grid;
     width: 90%; 
     margin: 0 auto;
-    grid-template-columns: 1fr 1fr;
 }
 .bloc-content-1 h4 {
     margin-top: 10px;
@@ -306,7 +305,6 @@ body::-webkit-scrollbar {
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 .section-4 .bloc-content-1 .fpnc {
     height: 150px;
@@ -341,7 +339,6 @@ body::-webkit-scrollbar {
 .section-5 .content {
     width: 100%;
     margin-top: 50px;
-    grid-template-columns: 1fr 1fr;
     background-color: #1E1E1E;
 }
 .section-5 .content .img-profile {
