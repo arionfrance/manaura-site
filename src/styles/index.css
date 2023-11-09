@@ -3,6 +3,7 @@
     --globale-font-family: Arial, sans-serif;
     --globale-font-weight: 900;
     --globale-title-color: #084E5B;
+    --globale-footer-color: #084E5B;
     --globale-link-color: #084E5B;
     --text-color: #7F7F7F;
     --text-font-size: 14px;
@@ -258,7 +259,7 @@ body::-webkit-scrollbar {
     grid-template-columns: 10% 1fr 10%;
     grid-template-rows: 20% 1fr;
 }
-.blocs {
+.section-3 .blocs {
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -344,7 +345,7 @@ body::-webkit-scrollbar {
     background-color: #1E1E1E;
 }
 .section-5 .content .img-profile {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-size: cover;
     background-image: url("../img/profil.png");
@@ -421,4 +422,44 @@ body::-webkit-scrollbar {
     outline: none;
     cursor: pointer;
     font-family: var(--globale-font-family);
+}
+
+
+/* Footer */
+
+
+.footer .img {
+    margin-top: 50px;
+    text-align: center;
+}
+.footer .section-1 {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 20% 1fr;
+}
+.footer .section-1 .blocs {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    flex-direction: column;
+    color: var(--globale-footer-color);
+    font-family: var(--globale-font-family);
+    line-height: 1.4;
+    font-size: var(--text-font-size);
+}
+.footer .infos-entreprise button {
+    height: 38px;
+    width: 50%;
+    outline: none;
+    border-radius: 25px;
+    border: 3px solid var(--global-border-color);
+    box-shadow: 0 0 10px var(--global-border-color);
+    color: var(--globale-footer-color);
+    font-family: var(--globale-font-family);
+    font-size: var(--text-font-size);
 }
