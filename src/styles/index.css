@@ -108,14 +108,16 @@ body::-webkit-scrollbar {
     width: 80%;
     grid-column: 1;
     grid-row: 1;
-    border: 1px solid #ccc;
+    border: 1px solid #EAE8E8;
+    box-shadow: 0 0 10px #EAE8E8;
     padding: 25px;
 }
 .main .section-1 .blocs .bloc-2 {
     padding: 25px;
     width: 80%;
     margin: 50px 0;
-    border: 1px solid #CCC;
+    border: 1px solid #EAE8E8;
+    box-shadow: 0 0 10px #EAE8E8;
 }
 .main .section-1 .bloc-1 .text .title {
     color: var(--globale-title-color);
@@ -146,9 +148,21 @@ body::-webkit-scrollbar {
 }
 
 .main .section-1 {
+    display: grid;
     width: auto;
     margin-bottom: 50px;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 20% 1fr;
 }
+.main .blocs {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    flex-direction: column;
+}
+/*
 .main .section-1 .bloc-2 {
     color: var(--text-color);
     width: 80%;
@@ -156,6 +170,7 @@ body::-webkit-scrollbar {
     grid-column: 1;
     grid-row: 2;
 }
+*/
 .main .section-1 .bloc-2 .text .title {
     color: var(--globale-title-color);
     font-size: 20px;
@@ -188,6 +203,9 @@ body::-webkit-scrollbar {
 /* Deuxième Section */
 
 
+.section-2 {
+    margin-top: 80px;
+}
 .section-2 .bloc-content-1 {
     display: grid;
     width: 90%; 
@@ -227,34 +245,50 @@ body::-webkit-scrollbar {
 }
 .bloc-content-2  {
     display: none;
- }
+} 
 
 
 /* Troisième Section */
 
 
-.section-3 .bloc-content-1 {
-    width: 90%;
-    margin: 0 auto;
+.section-3 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    width: auto;
+    margin-bottom: 50px;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 20% 1fr;
 }
-.bloc-content-1 .rcp {
+.blocs {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    flex-direction: column;
+}
+.section-3 h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: var(--globale-font-family);
+    font-size: var(--text-font-size);
+}
+.rcp {
     height: 150px;
-    width: 95%;
+    width: 100%;
     background-size: cover;
     background-image: url("../img/rcp.jpg");
 }
-.bloc-content-1 .flotteauto {
+.flotteauto {
     height: 150px;
-    width: 95%;
+    width: 100%;
     background-size: cover;
     background-image: url("../img/flotte-auto.jpg");
 }
 
-.section-3 .bloc-content-1 button {
+.section-3 button {
     height: 50px; 
-    width: 90%;
+    width: 50%;
     border-radius: 25px;
     border: solid 5px var(--global-border-color);
     text-align: center;
