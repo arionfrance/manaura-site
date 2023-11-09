@@ -252,7 +252,7 @@ body::-webkit-scrollbar {
 /* Troisième Section */
 
 
-.section-3 {
+.main .section-3 {
     display: grid;
     width: auto;
     margin-bottom: 50px;
@@ -462,4 +462,28 @@ body::-webkit-scrollbar {
     color: var(--globale-footer-color);
     font-family: var(--globale-font-family);
     font-size: var(--text-font-size);
+}
+.footer .section-2 {
+    width: 80%;
+    margin: 0 auto;
+}
+.footer .section-2 .footer-social-link{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .section-3 {
+    display: flex;
+    padding: 25px 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-size: 10px;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: var(--globale-footer-color);
+    font-family: var(--globale-font-family);
+    color: #FFF;
+}
+
+.footer .section-3 a {
+    color: #FFF;
 }
