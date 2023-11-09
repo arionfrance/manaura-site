@@ -348,6 +348,7 @@ body::-webkit-scrollbar {
     height: 600px;
     width: 100%;
     background-size: cover;
+    background-position: center;
     background-image: url("../img/profil.png");
 }
 .section-5 .content .text {
@@ -377,14 +378,19 @@ body::-webkit-scrollbar {
     display: grid;
     margin-top: 50px;
     margin-bottom: 50px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+.section-6 .qrcode {
+    text-align: center;
 }
 .section-6 .qrcode img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     background-size: cover;
 }
-
+.trustpilot-widget {
+    margin-bottom: 0px;
+}
 
 
 /* 7ème Section */
@@ -476,7 +482,7 @@ body::-webkit-scrollbar {
     padding: 25px 0;
     margin-bottom: 0;
     margin-top: 50px;
-    font-size: 10px;
+    font-size: 8px;
     justify-content: center;
     justify-content: space-evenly;
     background-color: var(--globale-footer-color);
