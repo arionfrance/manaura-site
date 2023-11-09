@@ -1,0 +1,19 @@
+/* Mobile L à Tablet */
+@media screen and (min-width: 430px) and (max-width: 780px) {
+    
+}
+
+/* Tablet à PC M */
+@media screen and (min-width: 780px) and (max-width: 1030px) {
+    
+}
+
+/* PC M à PC L */
+@media screen and (min-width: 1030px) and (max-width: 1440px) {
+    
+}
+
+/* PC L à + */
+@media screen and (min-width: 1440px) {
+    
+}
