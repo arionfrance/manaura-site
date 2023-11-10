@@ -154,6 +154,22 @@
         border-top-right-radius: 25px;
         height: 545px;
     }
+
+    /* Section n°7 */
+    .section-7 form input {
+        width: 60%;
+    }
+    .section-7 form button {
+        width: 25%;
+    }
+
+    /* Footer */
+    .footer .section-3 {
+        justify-content: center;
+    }
+    .footer .section-3 span {
+        margin-left: 15px;
+    }
 }
 
 /* Tablet à PC M */
