@@ -244,7 +244,7 @@ body::-webkit-scrollbar {
 .bloc-content-1 .bloc-img-3, .bloc-img-4 {
    display: none;
 }
-.bloc-content-2  {
+.main .bloc-content-2  {
     display: none;
 } 
 
