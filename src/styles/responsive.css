@@ -234,6 +234,7 @@
         background-size: cover;
         background-image: url("../img/prevoyance.png");
     }
+    
 
     /* Section n°3 */
     .main .section-3 {
@@ -310,6 +311,23 @@
         width: 90%; 
         margin: 0 auto;
     }
+
+    .main .blocs {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 6%;
+    }
+
+    .bloc-1, .bloc-2{
+        height: 100%;
+        width: 50%;
+    }
+
     .section-2 .bloc-content-1 .bloc-img-1 {
         grid-row: 1;
         grid-column: 2;
@@ -325,13 +343,14 @@
         width: 100%;
         margin: 0 auto;
     }
-    .section-2 .blocs {
+    .main .blocs {
         margin: 0 auto;
         width: 100%;
         display: flex;
         grid-column: 2/3;
         grid-row: 2/3;
-        flex-direction: column;
+        flex-direction: row !important;
+        align-items: baseline;
     }
     .automobile {
         height: 250px;
@@ -435,5 +454,15 @@
 
 /* PC L à + */
 @media screen and (min-width: 1440px) {
-    
+
+    .main .blocs {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 6%;
+    }
 }
