@@ -318,6 +318,21 @@
     .section-2 .bloc-img-4 {
         margin-left: 25px;
     }
+    .section-2 .bloc-content-2 {
+        display: grid;
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: 5% 1fr;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section-2 .blocs {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        flex-direction: column;
+    }
     .automobile {
         height: 250px;
         width: 100%;
@@ -333,21 +348,6 @@
         height: 250px;
         width: 100%;
         background: url("../img/port.jpg");
-    }
-    .section-2 .bloc-content-2 {
-        display: grid;
-        grid-template-columns: 10% 1fr 10%;
-        grid-template-rows: 5% 1fr;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .section-2 .blocs {
-        margin: 0 auto;
-        width: 100%;
-        display: flex;
-        grid-column: 2/3;
-        grid-row: 2/3;
-        flex-direction: column;
     }
     .section-2 .bloc-content-2 .bloc-img-1 button, .section-2 .bloc-img-2 button, .section-2 .bloc-img-3 button  {
         height: 50px;
@@ -384,6 +384,52 @@
         font-family: var(--globale-font-family);
         font-weight: var(--globale-font-weight);
         text-transform: uppercase;
+    }
+    
+    /* Section 4 */
+    .section-4 .bloc-content-1 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section-4 .bloc-content-1 h4 {
+        font-size: 18px;
+        font-family: var(--globale-font-family);
+        font-weight: var(--globale-font-weight);
+        text-transform: uppercase;
+    }
+    .section-4 .bloc-content-1 button {
+        font-size: 18px;
+        width: 50px;
+        height: 50px; 
+        font-family: var(--globale-font-family);
+        font-weight: var(--globale-font-weight);
+        text-transform: uppercase;
+    }
+    .section-4 .bloc-img-1 .fpnc {
+        width: 100%;
+        height: 350px;
+    }
+    .section-4 .bloc-img-2 .eeg {
+        width: 100%;
+        height: 350px;
+    }
+    .section-4 .bloc-img-3 .ssm {
+        height: 350px;
+    }
+    .section-7 form input {
+        font-size: 16px;
+    }
+    .section-7 form button {
+        font-size: 16px;
+    }
+    .footer .section-3 {
+        font-size: 14px;
+    }
+    .footer .infos-entreprise button {
+        font-size: 16px;
+    }
+    .footer .section-1 .blocs { 
+        font-size: 16px;
     }
 }
 
