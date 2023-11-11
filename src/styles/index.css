@@ -216,8 +216,10 @@ body::-webkit-scrollbar {
     grid-template-rows: 5% 1fr;
 }
 .section-2 .bloc-content-1 {
-    width: 90%; 
+    width: 100%; 
     margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
 }
 .bloc-content-1 h4 {
     margin-top: 10px;
@@ -237,13 +239,13 @@ body::-webkit-scrollbar {
 }
 .professionnel {
     height: 125px;
-    width: 95%;
+    width: 100%;
     background-size: cover;
     background-image: url("../img/pro.png");
 }
 .cyber {
     height: 125px;
-    width: 95%;
+    width: 100%;
     background-size: cover;
     background-image: url("../img/cyber.jpg");
 }
@@ -266,6 +268,21 @@ body::-webkit-scrollbar {
     grid-template-columns: 10% 1fr 10%;
     grid-template-rows: 20% 1fr;
 }
+
+.sante {
+    height: 125px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../img/sante.png");
+  }
+
+  .prevoyance {
+    height: 125px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../img/prevoyance.png");
+  }
+
 .section-3 .blocs {
     margin: 0 auto;
     width: 100%;
@@ -339,6 +356,7 @@ body::-webkit-scrollbar {
     margin-bottom: 10px;
     cursor: pointer;
 }
+
 
 
 /* Cinquième Section */
