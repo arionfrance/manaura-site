@@ -183,7 +183,7 @@
 
     /* Section n°2 */
     .section-2 {
-        grid-template-rows: 20% 1fr;
+        grid-template-rows: 30% 1fr;
     }
     .main .section-2 .bloc-content-1 {
         flex-direction: row;

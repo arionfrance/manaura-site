@@ -168,6 +168,9 @@ body::-webkit-scrollbar {
     align-items: center;
 
 }
+.domain {
+    flex-direction: column;
+}
 /*
 .main .section-1 .bloc-2 {
     color: var(--text-color);
@@ -213,7 +216,7 @@ body::-webkit-scrollbar {
     display: grid;
     margin-top: 80px;
     grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 10% 1fr;
+    grid-template-rows: 20% 1fr;
 }
 .section-2 .bloc-content-1 {
     width: 100%; 
