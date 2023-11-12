@@ -429,6 +429,12 @@ body::-webkit-scrollbar {
 }
 .section-4 .bloc-content-1 .eeg {
     height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../img/mesure.png");
+}
+.section-4 .bloc-content-1 .ssm {
+    height: 150px;
     width: 95%;
     background-size: cover;
     background-image: url("../img/study.png");
@@ -454,24 +460,34 @@ body::-webkit-scrollbar {
 
 .section-5 .content {
     width: 100%;
+    margin: 0 auto;
     margin-top: 50px;
     background-color: #1E1E1E;
+    flex-direction: row;
+    display: flex;
+}
+.section-5 .content .img {
+    padding: 10px;
 }
 .section-5 .content .img-profile {
     height: 600px;
-    width: 100%;
+    width: 550px;
+    margin-left: 100px;
     background-size: cover;
     background-position: center;
     background-image: url("../img/profil.png");
 }
 .section-5 .content .text {
-    width: 90%;
+    width: 40%;
     margin: 0 auto;
     padding-bottom: 15px;
     font-family: var(--globale-font-family);
+    border: 1px solid #CCC;
+    padding: 30px;
     font-weight: 100;
     line-height: 1.4;
     color: var(--text-color);
+    margin: 100px;
 }
 .section-5 .content .text a {
     color: var(--text-color);
