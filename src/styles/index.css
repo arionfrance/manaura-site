@@ -281,18 +281,12 @@ body::-webkit-scrollbar {
 
 
 .main .section-3 {
-    display: grid;
-    width: auto;
-    margin-bottom: 50px;
-    grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 10% 1fr;
+    margin: 0 auto;
+    width: 80%;
 }
 
-.section-3 .blocs {
-    margin: 0 auto;
+.main .section-3 .blocs {
     width: 100%;
-    text-align: center;
-    display: flex;
     grid-column: 2/3;
     grid-row: 2/3;
     flex-direction: column;
@@ -315,10 +309,18 @@ body::-webkit-scrollbar {
     background-size: cover;
     background-image: url("../img/flotte-auto.jpg");
 }
-
+.section-3 .text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 25px;
+}
+.section-3 .text button {
+    width: 25%;
+}
 .section-3 button {
     height: 50px; 
-    width: 50%;
+    width: 40%;
     border-radius: 25px;
     border: solid 5px var(--global-border-color);
     text-align: center;
@@ -332,12 +334,15 @@ body::-webkit-scrollbar {
     flex-direction: column;
     align-items: center;
     gap: 2%;
+    width: 100%;
+    margin-bottom: 50px;
 }
 .bloc-img-2{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2%;
+    width: 100%;
 }
 
 .bloc-img-3{
@@ -395,14 +400,26 @@ body::-webkit-scrollbar {
     gap : 6%; 
     width: 87%;
 }
-
+.titleAndButton button {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: solid 5px var(--global-border-color);
+    text-align: center;
+    font-weight: var(--globale-font-weight);
+    font-family: var(--globale-font-family);
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}   
+.section-2 .titleAndButton h4 {
+    font-size: 18px;
+}
 /* Quatrième section */
-
 
 .section-4 .bloc-content-1 {
     width: 90%;
     margin: 0 auto;
-    display: grid;
 }
 .section-4 .bloc-content-1 .fpnc {
     height: 150px;
