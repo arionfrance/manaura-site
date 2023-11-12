@@ -1,0 +1,28 @@
+:root {
+    --body-background-color: #F1F1F1;
+    --globale-font-family: Arial, sans-serif;
+    --globale-font-weight: 900;
+    --globale-title-color: #084E5B;
+    --globale-footer-color: #084E5B;
+    --globale-link-color: #084E5B;
+    --text-color: #7F7F7F;
+    --text-font-size: 14px;
+    --link-font-size: 10px;
+    --global-border-color: #084E5B;
+}
+
+.partenaire  {
+    margin-top: 50px;
+}
+.partenaire .part-1 {
+    margin-bottom: 50px;
+}
+.partenaire .part-1, .part-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.partenaire .part-1 div, .part-2 div {
+    width: 150px;
+    height: 150px;
+    background-color: var(--globale-footer-color);
+}
