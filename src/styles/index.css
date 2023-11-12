@@ -388,10 +388,10 @@ body::-webkit-scrollbar {
 .titleAndButton{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap : 6%; 
-    width: 100%;
+    width: 87%;
 }
-
 
 /* Quatrième section */
 
