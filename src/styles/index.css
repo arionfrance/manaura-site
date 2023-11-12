@@ -237,6 +237,7 @@ body::-webkit-scrollbar {
     margin-bottom: 10px;
     cursor: pointer;
 }
+/*
 .professionnel {
     height: 125px;
     width: 100%;
@@ -248,7 +249,7 @@ body::-webkit-scrollbar {
     width: 100%;
     background-size: cover;
     background-image: url("../img/cyber.jpg");
-}
+}*/
 
 .bloc-content-1 .bloc-img-3, .bloc-img-4 {
    display: none;
@@ -256,6 +257,21 @@ body::-webkit-scrollbar {
 .main .bloc-content-2  {
     display: none;
 } 
+
+.bloc-content-2 button {
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    border: solid 5px var(--global-border-color);
+    text-align: center;
+    font-weight: var(--globale-font-weight);
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .cyber > img{
+    max-height: 100%;
+}
 
 
 /* Troisième Section */
@@ -268,20 +284,6 @@ body::-webkit-scrollbar {
     grid-template-columns: 10% 1fr 10%;
     grid-template-rows: 20% 1fr;
 }
-
-.sante {
-    height: 125px;
-    width: 100%;
-    background-size: cover;
-    background-image: url("../img/sante.png");
-  }
-
-  .prevoyance {
-    height: 125px;
-    width: 100%;
-    background-size: cover;
-    background-image: url("../img/prevoyance.png");
-  }
 
 .section-3 .blocs {
     margin: 0 auto;
@@ -320,6 +322,74 @@ body::-webkit-scrollbar {
     font-weight: var(--globale-font-weight);
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.bloc-img-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+}
+.bloc-img-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+}
+
+.bloc-img-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+}
+.bloc-img-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+}
+
+.cyber {
+    height: 180px;
+}
+.sante {
+    height: 180px;
+}
+.prevoyance {
+    height: 180px;
+}
+.professionnel{
+    height: 180px;
+}
+
+.habitation{
+    height: 180px;
+}
+.automobile{
+    height: 180px;
+}
+.plaisance{
+    height: 180px;
+}
+
+
+.plaisance > img{
+    max-height: 100%;    
+}
+
+.automobile > img{
+    max-height: 100%;    
+}
+.habitation > img{
+    max-height: 100%;    
+}
+
+.titleAndButton{
+    display: flex;
+    flex-direction: row;
+    gap : 6%; 
+    width: 100%;
 }
 
 

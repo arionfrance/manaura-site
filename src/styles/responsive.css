@@ -47,44 +47,23 @@
         width: 50px;
         font-size: 18px;
     }
-    .section-2 .bloc-content-1 .bloc-img-1 {
-        grid-column: 1;
-        grid-row: 1;
-    }
-    .section-2 .bloc-content-1 .bloc-img-2 {
-        grid-column: 2;
-        grid-row: 1;
-    }
-    .section-2 .bloc-content-1 .bloc-img-3 {
-        grid-column: 1;
-        grid-row: 2;
-    }
-    .section-2 .bloc-content-1 .bloc-img-4 {
-        grid-column: 2;
-        grid-row: 2;
-    }
     .bloc-content-1 .bloc-img-3, .bloc-img-4 {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
+    
     .professionnel {
         height: 180px;
-        width: 100%;
     }
     .cyber {
         height: 180px;
-        width: 100%;
     }
     .sante {
         height: 180px;
-        width: 100%;
-        background-size: cover;
-        background-image: url("../img/sante.png");
     }
     .prevoyance {
         height: 180px;
-        width: 100%;
-        background-size: cover;
-        background-image: url("../img/prevoyance.png");
     }
 
     /* Section n°3 */
@@ -217,6 +196,18 @@
         display: none;
     }
     
+    .cyber {
+        height: 180px;
+    }
+    .sante {
+        height: 180px;
+    }
+    .prevoyance {
+        height: 180px;
+    }
+    .professionnel{
+        height: 180px;
+    }
 
     /* Section n°3 */
     .main .section-3 {
@@ -320,23 +311,16 @@
         gap: 2%;
         flex: 1 1;
     }
-
+/*
     .bloc-content-1 .bloc-img-1 , .bloc-img-2, .bloc-img-3, .bloc-img-4 {
         display: block !important;
         width: 125%;
         height: auto;
-      }
+      }*/
 
     .bloc-1, .bloc-2{
         height: 100%;
         width: 50%;
-    }
-
-    .section-2 .bloc-content-1 .bloc-img-1 {
-
-    }
-    .section-2 .bloc-img-4 {
-
     }
 
     .section-2 .bloc-content-2 {
@@ -349,7 +333,7 @@
         display: flex;
         grid-column: 2/3;
         grid-row: 2/3;
-        flex-direction: row !important;
+        flex-direction: row;
         align-items: baseline;
     }
     .automobile {
@@ -368,14 +352,8 @@
         width: 100%;
         background: url("../img/port.jpg");
     }
-
-    .prevoyance {
-        height: 125px;
-        width: 100%;
-        background-size: cover;
-        background-image: url("../img/prevoyance.png");
-      }
-
+    
+    
     .section-2 .bloc-content-2 .bloc-img-1 button, .section-2 .bloc-img-2 button, .section-2 .bloc-img-3 button  {
         height: 50px;
         width: 50px;
@@ -488,6 +466,13 @@
         flex-direction: row;
         justify-content: space-around;
       }
+      .section-2 h4 {
+        font-size: 10px;
+        font-family: var(--globale-font-family);
+        font-weight: var(--globale-font-weight);
+        text-transform: uppercase;
+        color: var(--globale-link-color);
+    }
 
     .section-2 .bloc-content-1, .bloc-content-2{
         flex-direction: row;
@@ -501,36 +486,20 @@
 
     .bloc-content-1 .bloc-img-1 , .bloc-img-2, .bloc-img-3, .bloc-img-4 {
         display: block !important;
-        width: 125%;
-        height: auto;
       }
-
-      .prevoyance {
-        height: 125px;
-        width: 100%;
-        background-size: cover;
-        background-image: url("../img/prevoyance.png");
-      }
-
-      .automobile{
-        display: block !important;
-        width: 125%;
-        height: auto; 
-        background-size: cover;
-        background-image: url("../img/automobile.jpg");  
-      } 
-      .habitation{
-        display: block !important;
-        width: 125%;
-        height: auto; 
-        background-size: cover;
-        background-image: url("../img/habitation.jpg");  
-      } 
-      .plaisance{
-        display: block !important;
-        width: 125%;
-        height: auto; 
-        background-size: cover;
-        background-image: url("../img/port.jpg");  
-      } 
+    .cyber {
+        height: 180px;
+    }
+    .sante {
+        height: 180px;
+    }
+    .prevoyance {
+        height: 180px;
+    }
+    .professionnel{
+        height: 180px;
+    }
+    .titleAndButton{
+        justify-content: space-evenly;
+    }
 }
