@@ -37,6 +37,9 @@
     }
 
     /* Section n°2 */
+    /* .main .section-2 {
+        grid-template-rows: 20% 1fr;
+    } */
     .main .section-2 .bloc-content-1 {
         flex-direction: column;
         justify-content: space-between;
@@ -179,6 +182,9 @@
     }
 
     /* Section n°2 */
+    .section-2 {
+        grid-template-rows: 20% 1fr;
+    }
     .main .section-2 .bloc-content-1 {
         flex-direction: row;
         justify-content: space-around;
