@@ -47,7 +47,7 @@
         margin: 0 auto;
     }
     .section-2 .bloc-content-1 h4 {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: var(--globale-font-weight);
         text-transform: uppercase;
     }
@@ -190,7 +190,7 @@
         justify-content: space-around;
     }
     .section-2 .bloc-content-1 h4 {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: var(--globale-font-weight);
         text-transform: uppercase;
     }
