@@ -213,7 +213,7 @@ body::-webkit-scrollbar {
     display: grid;
     margin-top: 80px;
     grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 5% 1fr;
+    grid-template-rows: 10% 1fr;
 }
 .section-2 .bloc-content-1 {
     width: 100%; 
@@ -282,7 +282,7 @@ body::-webkit-scrollbar {
     width: auto;
     margin-bottom: 50px;
     grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 20% 1fr;
+    grid-template-rows: 10% 1fr;
 }
 
 .section-3 .blocs {
@@ -385,7 +385,7 @@ body::-webkit-scrollbar {
     max-height: 100%;    
 }
 
-.titleAndButton{
+.titleAndButton {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
