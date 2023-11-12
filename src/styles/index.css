@@ -553,7 +553,7 @@ body::-webkit-scrollbar {
 }
 .footer .infos-entreprise button {
     height: 38px;
-    width: 50%;
+    width: 45%;
     outline: none;
     border-radius: 25px;
     border: 3px solid var(--global-border-color);

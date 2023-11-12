@@ -1,4 +1,10 @@
 /* Mobile L à Tablet */
+.footer .section-2 {
+    width: 0;
+}
+.footer .section-2 .footer-social-link a {
+    padding-left: 25px;
+}
 @media screen and (min-width: 425px) and (max-width: 768px) {
     :root {
         --body-background-color: #F1F1F1;
@@ -266,6 +272,9 @@
     }
 
     /* Footer */
+    .footer.infos-entreprise button {
+        width: 35%;
+    }
     .footer .section-3 {
         justify-content: center;
     }
