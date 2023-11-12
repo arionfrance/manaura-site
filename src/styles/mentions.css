@@ -15,10 +15,12 @@
     font-size: 16px;
     font-family: var(--globale-font-family);
     line-height: 1.4;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
+    margin-top: 50px;
     border-radius: 10px;
     color: #000;
+    border: 1px solid rgba(0, 0, 0, .15);
 }
 .mentions-legales .title {
     text-transform: uppercase;
