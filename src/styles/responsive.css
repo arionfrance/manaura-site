@@ -130,22 +130,6 @@
         flex-direction: row;
         align-items: baseline;
     }
-    .automobile {
-        height: 250px;
-        width: 100%;
-        background-position: center;
-        background: url("../img/automobile.jpg");
-    }
-    .habitation {
-        height: 250px;
-        width: 100%;
-        background: url("../img/habitation.jpg");
-    }
-    .plaisance {
-        height: 250px;
-        width: 100%;
-        background: url("../img/port.jpg");
-    }
     
     
     .section-2 .bloc-content-2 .bloc-img-1 button, .section-2 .bloc-img-2 button, .section-2 .bloc-img-3 button  {
@@ -180,7 +164,7 @@
     }
     .section-3 button {
         font-size: 18px;
-        width: 40%;
+        width: 7%;
         font-family: var(--globale-font-family);
         font-weight: var(--globale-font-weight);
         text-transform: uppercase;
@@ -288,23 +272,10 @@
     .bloc-content-1 .bloc-img-3 {
         display: none;
     }
-    
-    .cyber {
-        height: 180px;
-    }
-    .sante {
-        height: 180px;
-    }
-    .prevoyance {
-        height: 180px;
-    }
-    .professionnel{
-        height: 180px;
-    }
 
     /* Section n°3 */
     .main .section-3 {
-        margin-bottom: 130px;
+        margin-bottom: 50px;
     }
     .section-3 .blocs {
         text-align: left;
@@ -324,7 +295,6 @@
     .flotteauto {
         height: 250px;
     }
-
     .section-4 .bloc-content-1 .bloc-img-3 {
         display: block;
     }
@@ -394,7 +364,7 @@
 }
 
 /* Mobile à Tablet */
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {   
     :root {
         --body-background-color: #F1F1F1;
         --globale-font-family: Arial, sans-serif;
@@ -404,11 +374,11 @@
         --globale-link-color: #084E5B;
         --text-color: #7F7F7F;
         --text-font-size: 14px;
-        --link-font-size: 15px;
+        --link-font-size: 11px;
         --global-border-color: #084E5B;
     }
     .header .header-nav .header-link a {
-        padding-left: 25px;
+        padding-left: 15px;
         color: var(--globale-link-color);
         font-family: var(--globale-font-family);
         font-size: var(--link-font-size);
@@ -488,8 +458,10 @@
     }
 
     /* Section n°4 */
+    
     .section-4 .bloc-content-1 {
         display: grid;
+        gap: 6%;
     }
     .section-4 .bloc-content-1 .bloc-img-1 {
         grid-column: 1;
@@ -571,10 +543,32 @@
     .footer .section-3 span {
         margin-left: 15px;
     }
+    .footer .partenaires {
+        background: #084E5B;
+        border-radius: 10px;
+        color: #FFF;
+        margin-top: 50px;
+        font-size: 14px;
+        padding: 12.5px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 /* Mobile */
 @media screen and (max-width: 425px) {
+    :root {
+        --link-font-size: 10px;
+    }
+    /* Header */
+    .header .header-nav .header-link a {
+        padding-left: 10px;
+        color: var(--globale-link-color);
+        font-family: var(--globale-font-family);
+        font-size: var(--link-font-size);
+        text-decoration: none;
+    }
+    
     /* Section n°5 */
     .section-5 {
         width: 100%;
@@ -618,5 +612,16 @@
     }
     .section-5 .content .text a:hover {
         text-decoration: underline;
+    }
+
+    .footer .partenaires {
+        background: #084E5B;
+        border-radius: 10px;
+        color: #FFF;
+        margin-top: 50px;
+        font-size: 10px;
+        padding: 12.5px 20px;
+        display: flex;
+        justify-content: space-between;
     }
 }
