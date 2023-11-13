@@ -164,7 +164,7 @@
     }
     .section-3 button {
         font-size: 18px;
-        width: 7%;
+        width: 6%;
         font-family: var(--globale-font-family);
         font-weight: var(--globale-font-weight);
         text-transform: uppercase;
@@ -381,7 +381,7 @@
         padding-left: 15px;
         color: var(--globale-link-color);
         font-family: var(--globale-font-family);
-        font-size: var(--link-font-size);
+        font-size: 15px;
         text-decoration: none;
     }
     .header .header-img {
@@ -623,5 +623,81 @@
         padding: 12.5px 20px;
         display: flex;
         justify-content: space-between;
+    }
+}
+
+/* HAMBURGER */
+@media screen and (min-width: 769px) {
+    .hamburger-icon, #menu-toggle {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
+    .header .header-nav .header-link {
+        margin: 0;
+    }
+    .navbar .links {
+        display: none;
+        font-size: 16px;
+    }
+    .hamburger-icon {
+        cursor: pointer;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-toggle:checked + .hamburger-icon + .links{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        box-shadow: 0px 10px 9px -6px #6e6e6e;
+        background-color: #FFF;
+        padding: 10px;
+        width: 30%;
+    }
+    .centerLink, .button-links{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: left;
+    }
+    .header .navbar .links :nth-child(2){
+        padding-left : 0 0 0 0; 
+    }
+    a {
+        padding: 10px 0;
+    }
+    .header .header-nav .header-link a:hover {
+        background: #084E5B;
+        color: #FFF;
+        border-radius: 25px;
+    }
+
+    .button-links{
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-toggle:checked + .button-links{
+        display: none;
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 425px) {
+    .header .header-nav .header-link a {
+        font-size: 14px;
     }
 }
