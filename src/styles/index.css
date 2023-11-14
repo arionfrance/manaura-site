@@ -223,6 +223,7 @@ body::-webkit-scrollbar {
     margin: 0 auto;
     display: flex; 
     flex-direction: column;
+    gap: 6%;
 }
 .bloc-content-1 h4 {
     margin-top: 10px;
@@ -254,9 +255,6 @@ body::-webkit-scrollbar {
     background-image: url("../img/cyber.jpg");
 }*/
 
-.bloc-content-1 .bloc-img-3, .bloc-img-4 {
-   display: none;
-}
 .main .bloc-content-2  {
     display: none;
 } 
@@ -281,7 +279,9 @@ body::-webkit-scrollbar {
 
 
 .main .section-3 {
+    grid-template-columns: 10% 1fr 10%;
     margin: 0 auto;
+    margin-top: 100px;  
     width: 80%;
 }
 
@@ -337,6 +337,13 @@ body::-webkit-scrollbar {
     width: 100%;
     margin-bottom: 50px;
 }
+.professionnel {
+    width: 100%;
+    height: 300px;
+    background: url("../img/pro.png");
+    background-position: center;
+    background-size: cover;
+}
 .bloc-img-2{
     display: flex;
     flex-direction: column;
@@ -344,7 +351,13 @@ body::-webkit-scrollbar {
     gap: 2%;
     width: 100%;
 }
-
+.particuliers {
+    width: 100%;
+    height: 300px;
+    background: url("../img/particuliers.jpg");
+    background-position: center;
+    background-size: cover;
+}
 .bloc-img-3{
     display: flex;
     flex-direction: column;
@@ -382,10 +395,6 @@ body::-webkit-scrollbar {
     background-position: center;
     background-size: cover;
 }
-.professionnel{
-    height: 180px;
-}
-
 .habitation{
     height: 180px;
 }
@@ -462,7 +471,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: space-between;
     gap : 6%; 
-    width: 87%;
+    width: 100%;
     margin-top: 12.5px;
 }
 .titleAndButton button {
@@ -496,16 +505,13 @@ body::-webkit-scrollbar {
     height: 250px;
     width: 100%;
     background-size: cover;
-    background-image: url("../img/mesure.png");
+    background-image: url("../img/study.png");
 }
 .section-4 .bloc-content-1 .ssm {
     height: 250px;
     width: 100%;
     background-size: cover;
-    background-image: url("../img/study.png");
-}
-.section-4 .bloc-content-1 .bloc-img-3 {
-    display: none;
+    background-image: url("../img/mesure.png");
 }
 .section-4 .bloc-content-1 button {
     height: 50px; 

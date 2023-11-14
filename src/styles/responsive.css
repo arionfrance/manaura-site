@@ -8,7 +8,38 @@
 
 /* PC L à + */
 @media screen and (min-width: 1440px) {
-
+    .section-2 .bloc-content-1 .bloc-img-2 {
+        width: 100%;
+        height: 100%;
+    }
+    .section-3 .blocs .bloc-img-1, .blocs .bloc-img-2, .blocs .bloc-img-3, .blocs .bloc-img-4, .blocs .bloc-img-5, .blocs .bloc-img-6, .blocs .bloc-img-7, .blocs .bloc-img-8 {
+        width: 60%;
+        height: 350px;
+    }
+    .rcp, .sante, .flotteauto, .prevoyance, .automobile, .habitation, .plaisance, .immobilier {
+        height: 100%;
+    }
+    .section-4 {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .section-4 .bloc-content-1 {
+        width: 60%;
+    }
+    .section-4 .bloc-content-1 .bloc-img-1, .bloc-content-1 .bloc-img-2, .bloc-content-1 .bloc-img-3 {
+        height: 350px;
+    }
+    .section-4 .bloc-img-1 .fpnc {
+        height: 100%;
+    }
+    .section-4 .bloc-img-2 .eeg {
+        height: 100%;
+    }
+    
+    .section-4 .bloc-img-3 .ssm {
+        height: 100%;
+    }
     .main .blocs {
         margin: 0 auto;
         width: 100%;
@@ -49,25 +80,10 @@
     body .main .section-2 div.blocs{
         flex-direction: column;        
     }
-
+    /*
     .bloc-content-1 .bloc-img-1 , .bloc-img-2, .bloc-img-3, .bloc-img-4 {
         display: block !important;
-      }
-    .cyber {
-        height: 180px;
-    }
-    .sante {
-        height: 180px;
-    }
-    .prevoyance {
-        height: 180px;
-    }
-    .professionnel{
-        height: 180px;
-    }
-    .titleAndButton{
-        justify-content: space-evenly;
-    }
+    } */
 }
 
 /* PC M à PC L */
@@ -420,10 +436,6 @@
         flex-direction: column;
         align-content: center;
     }
-    
-    .professionnel {
-        height: 180px;
-    }
     .cyber {
         height: 180px;
     }
@@ -633,6 +645,7 @@
         visibility: hidden;
     }
 }
+
 @media screen and (max-width: 768px) {
     .navbar {
         display: flex;
