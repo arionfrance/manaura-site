@@ -713,4 +713,7 @@
     .header .header-nav .header-link a {
         font-size: 14px;
     }
+    .header .header-img .title {
+        font-size: 20px;
+    }
 }
