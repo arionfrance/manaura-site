@@ -149,6 +149,7 @@ body::-webkit-scrollbar {
     border: 5px solid var(--globale-link-color);
     border-radius: 25px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .main .section-1 {
@@ -180,6 +181,10 @@ body::-webkit-scrollbar {
     grid-row: 2;
 }
 */
+.main h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
 .main .section-1 .bloc-2 .text .title {
     color: var(--globale-title-color);
     font-size: 20px;
@@ -307,7 +312,7 @@ body::-webkit-scrollbar {
     height: 150px;
     width: 100%;
     background-size: cover;
-    background-image: url("../img/flotte-auto.jpg");
+    background-image: url("../img/partenaires/flotteauto.jpg");
 }
 .section-3 .text {
     display: flex;
@@ -499,7 +504,7 @@ body::-webkit-scrollbar {
     height: 250px;
     width: 100%;
     background-size: cover;
-    background-image: url("../img/administration.png");
+    background-image: url("../img/administration.jpg");
 }
 .section-4 .bloc-content-1 .eeg {
     height: 250px;
