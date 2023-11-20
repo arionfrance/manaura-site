@@ -534,20 +534,20 @@ body::-webkit-scrollbar {
     margin: 0 auto;
 }
 
-.section-4 .bloc-content-1 .fpnc {
+ .fpnc {
     height: 250px;
     width: 100%;
     background-size: cover;
     background-image: url("../img/administration.jpg");
 }
 
-.section-4 .bloc-content-1 .eeg {
+ .eeg {
     height: 250px;
     width: 100%;
     background-size: cover;
     background-image: url("../img/study.png");
 }
-.section-4 .bloc-content-1 .ssm {
+ .ssm {
     height: 250px;
     width: 100%;
     background-size: cover;
