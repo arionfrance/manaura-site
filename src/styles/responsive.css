@@ -17,6 +17,9 @@
         height: 350px;
         margin-top: 80px;
     }
+    .section-2 .bloc-img-2 {
+        margin-top: 0;
+    }
     .rcp, .sante, .flotteauto, .prevoyance, .automobile, .habitation, .plaisance, .immobilier {
         width: 100%;
         height: 350px;
