@@ -737,3 +737,43 @@ body::-webkit-scrollbar {
     border-radius: 100px;
     color: #FFF;
 }
+
+/* INFOBULLE */
+.element {
+    width: 100%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.infobulle {
+    font-family: var(--globale-font-family);
+    line-height: 22px;
+    transform: scale(0);
+    width: 25%;
+    position: absolute;
+    background-color: var(--globale-title-color);
+    color: white;
+    border-radius: 5px;
+    padding: 8;
+    margin-top: 10Px;
+    box-shadow: 1px 1px 0 0.5 rgba(0, 0, 0, .3);
+    border-bottom: 3px solid rgba(255, 255, 255, .3);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    transition: 0.2s;
+}
+
+.infobulle::before {
+    content: '';
+    position: absolute;
+    border-bottom: 8px solid var(--globale-title-color);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    margin-top: -7px;
+    margin-left: 10px;
+}
+
+.element:hover > .infobulle {
+    transform:scale(1);
+}
