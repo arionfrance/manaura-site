@@ -803,7 +803,7 @@ body::-webkit-scrollbar {
     background-color: var(--globale-title-color);
     color: white;
     border-radius: 5px;
-    padding: 8;
+    padding: 12.5px;
     margin-top: 10Px;
     box-shadow: 1px 1px 0 0.5 rgba(0, 0, 0, .3);
     border-bottom: 3px solid rgba(255, 255, 255, .3);
