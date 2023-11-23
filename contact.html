@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manaura Assurances²</title>
+    <title>Manaura Assurances</title>
     <link rel="stylesheet" href="src/styles/index.css">
     <link rel="stylesheet" href="src/styles/responsive.css">
     <link rel="stylesheet" href="src/styles/contact.css">
+    <meta name="description" content="Manaura Assurance offre une protection complète et fiable. Notre engagement est d'assurer la tranquillité d'esprit grâce à des solutions d'assurance sur mesure.">
     <link rel="shortcut icon" href="src/img/manauralogo.png" type="image/x-icon">
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 </head>
@@ -28,23 +29,23 @@
             <!-- <img src="src/img/header-img.jpg" alt="Image du header"> -->
             <h1 class="title">manaura assurances <br>vous protéger <br>c'est notre racine</h1>
             <div class="header-social-link">
-                <a href="" title="instagramlink"><img src="src/img/instagram-logo.png" alt="Logo Instagram"></a>
-                <a href="" title="facebooklink"><img src="src/img/facebook-logo.png" alt="Logo Facebook"></a>
-                <a href="" title="twitterlink"><img src="src/img/twitter-logo.png" alt="Logo Twitter"></a>
-                <a href="https://www.linkedin.com/in/frantz-nosile-04297a49/" title="linkedinlink"><img src="src/img/linkedin-logo.png" alt="Logo Linkedin"></a>
+                <a href="" title="instagramlink"><img src="src/img/socialmedia/insta.png" alt="Logo Instagram"></a>
+                <a href="" title="facebooklink"><img src="src/img/socialmedia/meta.png" alt="Logo Facebook"></a>
+                <a href="" title="twitterlink"><img src="src/img/socialmedia/twitter.png" alt="Logo Twitter"></a>
+                <a href="https://www.linkedin.com/in/frantz-nosile-04297a49/" title="linkedinlink"><img src="src/img/socialmedia/linkedin.png" alt="Logo Linkedin"></a>
             </div>
         </div>
     </header>
     <main class="main">
         <div class="contact-form">
-            <form action="">
-                <input type="text" placeholder="Nom de votre entreprise *">
-                <input type="text" placeholder="Saississez votre e-mail *">
-                <input type="text" placeholder="Activité principale *">
-                <input type="text" placeholder="Nunméro de téléphone *">
-                <input type="text" placeholder="Localité *">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
-                <button type="submit">Contactez-nous</button>
+            <form action="contact.php" method="POST">
+                <input required type="text" name="entreprise" id="entreprise" placeholder="Nom de votre entreprise *">
+                <input required type="text" name="email" id="email" placeholder="Saississez votre e-mail *">
+                <input required type="text" name="activity" id="activity" placeholder="Activité principale *">
+                <input required type="text" name="tel" id="tel" placeholder="Numéro de téléphone *">
+                <input required type="text" name="place" id="place" placeholder="Localité *">
+                <textarea required name="message" id="message" cols="30" rows="10" placeholder="Votre message *"></textarea>
+                <button style="cursor: pointer;" type="submit">Contactez-nous</button>
             </form>
         </div>
     </main>
@@ -76,14 +77,6 @@
                         <p><strong>Orias:</strong> 23006532</p>
                         <p><strong>RCP:</strong> n°HYAIF16ADLARG-2535</p>
                         <a href="contact.html"><button>nous contacter</button></a>
-                    </div>
-                    <div class="partenaires">
-                        <p>AXA</p>
-                        <p>Generali</p>
-                        <p>MMA</p>
-                        <p>Hiscox</p>
-                        <p>Swiss Life</p>
-                        <p>Allianz</p>
                     </div>
                 </div>
             </div>
