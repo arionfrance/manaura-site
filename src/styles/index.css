@@ -460,7 +460,7 @@ body::-webkit-scrollbar {
 .prevoyance {
     width: 100%;
     height: 350px;
-    background: url("../img/prevoyance.p");
+    background: url("../img/prevoyance.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -583,7 +583,7 @@ body::-webkit-scrollbar {
     height: 250px;
     width: 100%;
     background-size: cover;
-    background-image: url("../img/mesure.jpg");
+    background-image: url("../img/mesure.png");
 }
 
 .section-4 .bloc-content-1 button {
@@ -747,6 +747,12 @@ body::-webkit-scrollbar {
     font-family: var(--globale-font-family);
     line-height: 1.4;
     font-size: var(--text-font-size);
+}
+
+.footer .infos-entreprise .button {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 .footer .infos-entreprise button {

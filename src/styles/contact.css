@@ -6,6 +6,12 @@
     padding: 50px;
     border-radius: 25px;
 }
+.success {
+    text-align: center;
+    font-family: arial;
+    color: green;
+    font-weight: 800;
+}
 .contact-form {
     width: 90%;
     margin: 0 auto;
@@ -35,7 +41,7 @@
     border: 0;
     box-shadow: 0 0 10px #a8a1a1;
 }
-.contact-form form button {
+form button {
     text-align: center;
     background: #084E5B;
     color: #FFF;
