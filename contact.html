@@ -40,15 +40,16 @@
         <div id="form" class="contact-form">
             <form name="contact-form">
                 <input required type="text" name="entreprise" id="entreprise" placeholder="Nom de votre entreprise *">
-                <input required type="text" name="email" id="email" placeholder="Saississez votre e-mail *">
+                <input required type="email" name="email" id="email" placeholder="Saississez votre e-mail *">
                 <input required type="text" name="activity" id="activity" placeholder="Activité principale *">
-                <input required type="text" name="telephone" id="tel" placeholder="Numéro de téléphone *">
+                <input required type="tel" name="telephone" id="tel" placeholder="Numéro de téléphone *">
                 <input required type="text" name="emplacement" id="place" placeholder="Localité *">
                 <textarea required name="message" id="message" cols="30" rows="10" placeholder="Votre message *"></textarea>
                 <button type="submit">Contactez-nous</button>
             </form>
+            <!-- Script message -->
             <script>
-                const scriptURL = 'https://script.google.com/macros/s/AKfycbwwMCIuzG6k1NH2T6ncx5u36LFw55PE2FkBYrHCj61TOoAbAv1WgAaptw2IJpVyRNum/exec'
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbyqWngxmXGWiJT3KjABG2FrrNKbZ-qnJAEYPyeKrSwT0KHScg1MeSif_-D2ymeHzMXF/exec'
 
                 const form = document.forms['contact-form']
 
