@@ -825,7 +825,7 @@ body::-webkit-scrollbar {
     font-family: var(--globale-font-family);
     line-height: 22px;
     transform: scale(0);
-    width: 25%;
+    width: 50%;
     position: absolute;
     background-color: var(--globale-title-color);
     color: white;
