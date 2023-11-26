@@ -824,19 +824,20 @@ body::-webkit-scrollbar {
 .infobulle {
     font-family: var(--globale-font-family);
     line-height: 22px;
+    display: flex;
     transform: scale(0);
-    width: 50%;
     position: absolute;
     background-color: var(--globale-title-color);
     color: white;
-    border-radius: 5px;
-    padding: 12.5px;
-    margin-top: 10Px;
+    flex-direction: column;
     box-shadow: 1px 1px 0 0.5 rgba(0, 0, 0, .3);
-    border-bottom: 3px solid rgba(255, 255, 255, .3);
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    transition: 0.2s;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 0 20% 0 20% ;
+    justify-content: center;
 }
 
 .infobulle::before {
@@ -849,6 +850,13 @@ body::-webkit-scrollbar {
     margin-left: 10px;
 }
 
+.element:hover{
+    transform: rotateY(0.5turn);
+    transition-duration: 80ms;
+}
+
 .element:hover > .infobulle {
     transform:scale(1);
+    transform: rotateY(-0.5turn);
+    transition-duration: 80ms;
 }
