@@ -840,16 +840,6 @@ body::-webkit-scrollbar {
     justify-content: center;
 }
 
-.infobulle::before {
-    content: '';
-    position: absolute;
-    border-bottom: 8px solid var(--globale-title-color);
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    margin-top: -7px;
-    margin-left: 10px;
-}
-
 .element:hover{
     transform: rotateY(0.5turn);
     transition-duration: 80ms;
