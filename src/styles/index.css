@@ -613,9 +613,10 @@ body::-webkit-scrollbar {
     height: 600px;
     width: 550px;
     margin-left: 100px;
+    border-radius: 25px;
     background-size: cover;
     background-position: center;
-    background-image: url("../img/profil.png");
+    background-image: url("../img/profil.jpeg");
 }
 
 .section-5 .content .text {
@@ -738,6 +739,7 @@ body::-webkit-scrollbar {
 .footer .section-1 .blocs {
     display: flex;
     width: 100%;
+    text-align: center;
     margin: 0 auto;
     grid-column: 2/3;
     grid-row: 2/3;
@@ -824,31 +826,29 @@ body::-webkit-scrollbar {
 .infobulle {
     font-family: var(--globale-font-family);
     line-height: 22px;
+    display: flex;
     transform: scale(0);
-    width: 50%;
     position: absolute;
     background-color: var(--globale-title-color);
     color: white;
-    border-radius: 5px;
-    padding: 12.5px;
-    margin-top: 10Px;
+    flex-direction: column;
     box-shadow: 1px 1px 0 0.5 rgba(0, 0, 0, .3);
-    border-bottom: 3px solid rgba(255, 255, 255, .3);
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    transition: 0.2s;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 0 20% 0 20% ;
+    justify-content: center;
 }
 
-.infobulle::before {
-    content: '';
-    position: absolute;
-    border-bottom: 8px solid var(--globale-title-color);
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    margin-top: -7px;
-    margin-left: 10px;
+.element:hover{
+    transform: rotateY(0.5turn);
+    transition-duration: 80ms;
 }
 
 .element:hover > .infobulle {
     transform:scale(1);
+    transform: rotateY(-0.5turn);
+    transition-duration: 80ms;
 }

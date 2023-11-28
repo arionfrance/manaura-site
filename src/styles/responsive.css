@@ -351,9 +351,10 @@
         height: 100%;
         width: 100%;
         margin-left: 5px;
+        border-radius: 25px;
         background-size: cover;
         background-position: center;
-        background-image: url("../img/profil.png");
+        background-image: url("../img/profil.jpeg");
     }
     .section-5 .content .text {
         width: 60%;
@@ -415,9 +416,9 @@
     .header .header-img .title {
         padding-top: 100px;
     }
-    /* Section n°1 */
+    /* Section n°1 
     .section-1 {
-    }
+    } */
 
     /* Section n°2 */
     /* .main .section-2 {
@@ -525,7 +526,8 @@
         width: 100%;
         background-size: cover;
         background-position: center;
-        background-image: url("../img/profil.png");
+        border-radius: 0;
+        background-image: url("../img/profil.jpeg");
         margin-left: 0;
     }
     .section-5 .content .text {
@@ -611,7 +613,8 @@
         width: 100%;
         background-size: cover;
         background-position: center;
-        background-image: url("../img/profil.png");
+        border-radius: 0;
+        background-image: url("../img/profil.jpeg");
         margin-left: 0;
     }
     .section-5 .content .text {
@@ -733,5 +736,11 @@
         height: 75px;
         border-radius: 10px;
         margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .section-7 form input {
+        width: 40%;
     }
 }
