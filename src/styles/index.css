@@ -613,6 +613,7 @@ body::-webkit-scrollbar {
     height: 600px;
     width: 550px;
     margin-left: 100px;
+    border-radius: 25px;
     background-size: cover;
     background-position: center;
     background-image: url("../img/profil.jpeg");
@@ -738,6 +739,7 @@ body::-webkit-scrollbar {
 .footer .section-1 .blocs {
     display: flex;
     width: 100%;
+    text-align: center;
     margin: 0 auto;
     grid-column: 2/3;
     grid-row: 2/3;

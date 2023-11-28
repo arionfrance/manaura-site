@@ -351,6 +351,7 @@
         height: 100%;
         width: 100%;
         margin-left: 5px;
+        border-radius: 25px;
         background-size: cover;
         background-position: center;
         background-image: url("../img/profil.jpeg");
@@ -525,6 +526,7 @@
         width: 100%;
         background-size: cover;
         background-position: center;
+        border-radius: 0;
         background-image: url("../img/profil.jpeg");
         margin-left: 0;
     }
@@ -611,6 +613,7 @@
         width: 100%;
         background-size: cover;
         background-position: center;
+        border-radius: 0;
         background-image: url("../img/profil.jpeg");
         margin-left: 0;
     }
@@ -733,5 +736,11 @@
         height: 75px;
         border-radius: 10px;
         margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .section-7 form input {
+        width: 40%;
     }
 }
