@@ -852,3 +852,10 @@ body::-webkit-scrollbar {
     transform: rotateY(-0.5turn);
     transition-duration: 80ms;
 }
+
+@media screen and (max-width: 450px) {
+    .infobulle {
+        font-size: 9px;
+        line-height: 1.6;
+    }
+}
