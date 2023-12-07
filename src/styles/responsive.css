@@ -300,6 +300,7 @@
     /* Section n°3 */
     .main .section-3 {
         margin-bottom: 50px;
+        margin-top: 50px;
     }
     .section-3 .blocs {
         text-align: left;
