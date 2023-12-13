@@ -10,3 +10,12 @@
     --link-font-size: 10px;
     --global-border-color: #084E5B;
 }
+
+.title {
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: var(--globale-title-color);
+    text-align: center;
+    font-family: var(--globale-font-family);
+    font-weight: var(--globale-font-weight);
+}
