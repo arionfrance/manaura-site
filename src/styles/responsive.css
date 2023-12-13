@@ -773,6 +773,7 @@
 @media screen and (min-width: 700px) and (max-width: 1025px){
     .section-4 .infobulle {
         width: 60%;
+        height: 400px;
         line-height: 22px;
         font-size: 12px;
     }
@@ -787,6 +788,6 @@
 
 @media screen and (min-width: 450px) {
     .infobulle {
-        font-size: 10px;
+        font-size: 15px;
     }
 }
