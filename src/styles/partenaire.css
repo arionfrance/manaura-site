@@ -11,7 +11,7 @@
     --global-border-color: #084E5B;
 }
 
-.title {
+.title-big {
     margin-top: 25px;
     text-transform: uppercase;
     color: var(--globale-title-color);
