@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manaura Assurances</title>
+    <meta name="trustpilot-one-time-domain-verification-id" content="cb837856-f152-4c0e-b61c-e43709bd39fe" />
     <link rel="stylesheet" href="src/styles/index.css">
     <link rel="stylesheet" href="src/styles/responsive.css">
+    <!-- <link rel="stylesheet" href="src/css/main.css"> -->
+    <!-- Swipers Js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Fontawesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
     <meta name="description" content="Manaura Assurance offre une protection complète et fiable. Notre engagement est d'assurer la tranquillité d'esprit grâce à des solutions d'assurance sur mesure.">
     <link rel="shortcut icon" href="src/img/manauralogo.png" type="image/x-icon">
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
@@ -88,7 +100,7 @@
                 </div>
             </div>
         </div>
-        <h1 class="title">Principaux partenaires</h1>
+        <h1 class="title">Mes Principaux partenaires</h1>
         <div class="partenaires">
             <p><img src="src/img/partenaires/axa.svg" width="100" alt="Axa img"></p>
             <p><img src="src/img/partenaires/generali.png" width="120" alt=""></p>
@@ -340,8 +352,180 @@
                 </div>
             </div>
         </div>
-        
-        <div class="section-6">
+        <!--
+        <main class="home">
+            <section class="reviews">
+                <div class="sl_container">
+                    <h2>Avis Trustpilot</h2>
+                    <div class="for_swiper_container">
+                        <div class="reviews_container for_swiper_wrapper">
+                            <div class="single_review">
+                                <div class="review_top">
+                                    <strong>Mickael Gimer</strong>
+                                </div>
+                                <span>Une excellente expertise ...</span>
+                                <p>Une excellente expertise et un accompagnement adapté pour chaque situation. Rien à redire c'est tout simplement parfait</p>
+                                <img src="./src/img/stars.svg" class="stars" />
+                            </div>
+                            <div class="single_review">
+                                <div class="review_top">
+                                    <strong>Valérie Hausknost</strong>
+                                </div>
+                                <span>Une masterclass pleine de ressources et d’informations.</span>
+                                <p>Une masterclass pleine de ressources et d’informations avec des échanges constructifs. Merci à Frédéric Marquis de chez Arion pour sa participation avec bienveillance. Elle m’a permis d’échanger avec les personnes présentes et je vais sûrement le recontacter prochainement.</p>
+                                <img src="./src/img/stars.svg" class="stars" />
+                            </div>
+                            <div class="single_review">
+                                <div class="review_top">
+                                    <strong>Fabio Chiarotto</strong>
+                                </div>
+                                <spa>Très pro et à l'écoute des ces clients</span>
+                                <p>Très pro et à l’écoute de ces clients je recommande !</p>
+                                <img src="./src/img/stars.svg" class="stars" />
+                            </div>
+                            <div class="single_review">
+                                <div class="review_top">
+                                    <strong>Sofiène Ketfi</strong>
+                                </div>
+                                <span>Excellent prestataire</span>
+                                <p>Arion m'a proposé et accompagné sur le déploiement de nombreux canaux d'acquisition client.
+                                    J'ai été accompagné dans toutes les démarches et les résultats sont là.
+                                    Je recommande vivement.</p>
+                                <img src="./src/img/stars.svg" class="stars" />
+                            </div>
+                            <div class="single_review">
+                                <div class="review_top">
+                                    <strong>Eric Szalski</strong>
+                                </div>
+                                <span>Une efficacité sans failles</span>
+                                <p>Solutions marketing et suivi de réseau, j'ai utilisé les services d'Arion France pour améliorer ma visibilité sur Instagram et le résultat était à la hauteur de leur promesses ! Je recommande pour toutes les entreprises qui ont besoin de visibilité et d'outils efficaces pour leur acquisition client.</p>
+                                <img src="./src/img/stars.svg" class="stars" />
+                            </div>
+                            <div class="single_review">
+                                <div class="review_top">
+                                    <strong>Farouk Redouane</strong>
+                                </div>
+                                <span>Très professionnel et concret.</span>
+                                <p>Très professionnel et concret apporte énormément de visibilité et de bons conseils. Je recommande vivement.</p>
+                                <img src="./src/img/stars.svg" class="stars" />
+                            </div>
+                        </div>
+                        <div class="mobile_nav">
+                            <i class="fa-solid fa-chevron-left to_left"></i>
+                            <i class="fa-solid fa-chevron-right to_right"></i>
+                        </div>
+                    </div>
+                    <a href="https://fr.trustpilot.com/review/arion-france.com" target="_blank" class="btn">Voir plus</a>
+                </div>
+            </section>
+        </main> -->
+        <!-- Swipers Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper_home = new Swiper("#hero_slider", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            breakpoints: {
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            on: {
+                init: function () {
+                    setSlideHeights();
+                },
+                slideChange: function () {
+                    setSlideHeights();
+                },
+                resize: function () {
+                    setSlideHeights();
+                },
+            },
+        });
+        function setSlideHeights() {
+            var slides = document.querySelectorAll("#hero_slider .swiper-slide");
+            var maxHeight = 0;
+
+            slides.forEach(function (slide) {
+                slide.style.height = ""; // Reset height to recalculate properly
+                var slideHeight = slide.offsetHeight;
+                if (slideHeight > maxHeight) {
+                    maxHeight = slideHeight;
+                }
+            });
+
+            slides.forEach(function (slide) {
+                slide.style.height = maxHeight + "px";
+            });
+        }
+    </script>
+    <script>
+        function initReviewSlider() {
+            if (window.innerWidth < 768) { 
+                const for_swiper_container = document.querySelector('.reviews .for_swiper_container');
+                const for_swiper_wrapper = document.querySelector('.reviews .for_swiper_wrapper');
+                for_swiper_container.classList.add('swiper-container');
+                for_swiper_wrapper.classList.add('swiper-wrapper');
+                // All slides
+                const reviews_slides = document.querySelectorAll('.reviews .single_review');
+                reviews_slides.forEach(s_review => {
+                    s_review.classList.add('swiper-slide');
+                });
+
+                // Initialize the slider
+                const reviewsSwiper = new Swiper('.reviews .for_swiper_container', {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    navigation: {
+                        nextEl: ".reviews .to_right",
+                        prevEl: ".reviews .to_left",
+                    },
+                })
+            }
+        }
+        window.addEventListener('resize', initReviewSlider);
+        window.addEventListener('load', initReviewSlider);
+    </script>
+    <script>
+        let isCounted = false;
+
+        function startCounting() {
+            const counterElements = document.querySelectorAll('.impact .counter_up');
+
+            counterElements.forEach(element => {
+                const target = parseInt(element.getAttribute('data-number-target'), 10);
+                let counterValue = 0;
+
+                const counterInterval = setInterval(() => {
+                    if (counterValue !== target) {
+                        counterValue++;
+                        element.innerHTML = counterValue;
+                    } else {
+                        clearInterval(counterInterval); // Clear the interval when target is reached
+                    }
+                }, 20); // Adjust the interval duration for smoother animation
+            });
+        }
+
+        window.addEventListener('scroll', () => {
+            const impactSection = document.querySelector('.impact'); 
+
+            if (window.scrollY > impactSection.offsetTop - 100 && !isCounted) {
+                startCounting();
+                isCounted = true;
+            }
+        });
+    </script>
+
+    <div class="section-6">
             <!-- <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="65113e7cc608071dca4d456c" width="100">
                 <a href="https://fr.trustpilot.com/review/arion-france.com" target="_blank" rel="noopener">Trustpilot</a>
             </div> -->
