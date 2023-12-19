@@ -262,6 +262,7 @@
         font-size: var(--link-font-size);
         text-decoration: none;
     }
+
     .header .header-img {
         width: 100%;
         height: 350px;
