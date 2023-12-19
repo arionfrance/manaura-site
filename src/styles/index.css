@@ -32,7 +32,6 @@ body::-webkit-scrollbar {
     height: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 10px 0 0 0;
 }
 
@@ -44,6 +43,11 @@ body::-webkit-scrollbar {
 
 .header .header-nav .header-link {
     margin-right: 30px;
+    margin: 0 auto;
+}
+.header-nav .links .button {
+    color: #FFF;
+    background: #084E5B;
 }
 
 .header .header-nav .header-link a {
@@ -87,6 +91,16 @@ body::-webkit-scrollbar {
 
 .header .header-img .header-social-link a:nth-child(4) {
     padding-left: 10px;
+}
+
+.header .header-nav .header-link .button {
+    width: auto;
+    padding: 10px;
+    padding-left: 10px;
+    background: #084E5B;
+    color: #FFF;
+    border-radius: 10px;
+    text-align: right;
 }
 
 .main .title {
