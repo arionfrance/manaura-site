@@ -894,6 +894,11 @@ body::-webkit-scrollbar {
     transition-duration: 80ms;
 }
 
+.stars{
+    width: 40%;
+}
+
+
 @media screen and (max-width: 450px) {
     .infobulle {
         font-size: 10px;
