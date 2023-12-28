@@ -577,6 +577,15 @@
         display: flex;
         justify-content: space-between;
     }
+    .avis{
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+    .single_review{
+        width: 80%;
+        margin-bottom: 10%;
+    }
 }
 
 /* Mobile */
@@ -649,6 +658,16 @@
         display: flex;
         justify-content: space-between;
     }
+    .avis{
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+    .single_review{
+        width: 80%;
+        margin-bottom: 10%;
+    }
+
 }
 
 /* HAMBURGER */
@@ -725,6 +744,15 @@
     .partenaires img {
         margin-left: 25px;
     }
+    .avis{
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+    .single_review{
+        width: 80%;
+        margin-bottom: 10%;
+    }
 }
 @media screen and (max-width: 425px) {
     .header .header-nav .header-link a {
@@ -738,6 +766,15 @@
         height: 75px;
         border-radius: 10px;
         margin-left: 25px;
+    }
+    .avis{
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+    .single_review{
+        width: 80%;
+        margin-bottom: 10%;
     }
 }
 
@@ -753,6 +790,15 @@
         line-height: 15px;
         font-size: 8px;
     }
+    .avis{
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+    .single_review{
+        width: 80%;
+        margin-bottom: 10%;
+    }
 }
 
 @media screen and (min-width: 360px) and (max-width: 450px){
@@ -760,6 +806,15 @@
         width: 60%;
         line-height: 15px;
         font-size: 8px;
+    }
+    .avis{
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+    .single_review{
+        width: 80%;
+        margin-bottom: 10%;
     }
 }
 

@@ -771,6 +771,26 @@ body::-webkit-scrollbar {
     font-size: var(--text-font-size);
 }
 
+.avis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    margin: 20px 0 0 0;
+    color: var(--globale-footer-color);
+    font-family: var(--globale-font-family);
+}
+
+.single_review{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 20%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+
 .footer .infos-entreprise .button {
     display: inline-block;
     width: 100%;
